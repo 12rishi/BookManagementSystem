@@ -16,6 +16,9 @@ const bookSchema = new mongoose.Schema({
   publishedAt: {
     type: String,
   },
+  image: {
+    type: String,
+  },
 });
 const Book = mongoose.model("Book", bookSchema);
 module.exports = Book;
